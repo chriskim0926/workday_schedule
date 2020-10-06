@@ -202,5 +202,90 @@ $('#9amButton').click(function() {
     localStorage.setItem("9amInput",input9.value)
     console.log(input9.value)
 });
+$('#10amButton').click(function() {
+    if ($(button10).attr('disabled')) $(button10).removeAttr('disabled');
+    else $(button10).attr('disabled', 'disabled');
+    var input10 = document.getElementById("10amInput") 
+    localStorage.setItem("10amInput",input10.value)
+    console.log(input10.value)
+});
+$('#11amButton').click(function() {
+    if ($(button11).attr('disabled')) $(button11).removeAttr('disabled');
+    else $(button11).attr('disabled', 'disabled');
+    var input11 = document.getElementById("11amInput") 
+    localStorage.setItem("11amInput",input11.value)
+    console.log(input11.value)
+});
+$('#12amButton').click(function() {
+    if ($(button12).attr('disabled')) $(button12).removeAttr('disabled');
+    else $(button12).attr('disabled', 'disabled');
+    var input12 = document.getElementById("12amInput") 
+    localStorage.setItem("12amInput",input12.value)
+    console.log(input12.value)
+});
+$('#13amButton').click(function() {
+    if ($(button13).attr('disabled')) $(button13).removeAttr('disabled');
+    else $(button13).attr('disabled', 'disabled');
+    var input13 = document.getElementById("13amInput") 
+    localStorage.setItem("13amInput",input13.value)
+    console.log(input13.value)
+});
+$('#14amButton').click(function() {
+    if ($(button14).attr('disabled')) $(button14).removeAttr('disabled');
+    else $(button14).attr('disabled', 'disabled');
+    var input14 = document.getElementById("14amInput") 
+    localStorage.setItem("14amInput",input14.value)
+    console.log(input14.value)
+});
+$('#15amButton').click(function() {
+    if ($(button15).attr('disabled')) $(button15).removeAttr('disabled');
+    else $(button15).attr('disabled', 'disabled');
+    var input15 = document.getElementById("15amInput") 
+    localStorage.setItem("15amInput",input15.value)
+    console.log(input15.value)
+});
+$('#16amButton').click(function() {
+    if ($(button16).attr('disabled')) $(button16).removeAttr('disabled');
+    else $(button16).attr('disabled', 'disabled');
+    var input16 = document.getElementById("16amInput") 
+    localStorage.setItem("16amInput",input16.value)
+    console.log(input16.value)
+});
+$('#17amButton').click(function() {
+    if ($(button17).attr('disabled')) $(button17).removeAttr('disabled');
+    else $(button17).attr('disabled', 'disabled');
+    var input17 = document.getElementById("17amInput") 
+    localStorage.setItem("17amInput",input17.value)
+    console.log(input17.value)
+});
+
+  // Local Storage to continue to keep My current schedule 
+  var input9Text = localStorage.getItem("9amInput")
+  var input9 = document.getElementById("9amInput")
+  input9.value = input9Text
+  var input10Text = localStorage.getItem("10amInput")
+  var input10 = document.getElementById("10amInput")
+  input10.value = input10Text
+  var input11Text = localStorage.getItem("11amInput")
+  var input11 = document.getElementById("11amInput")
+  input11.value = input11Text
+  var input12Text = localStorage.getItem("12amInput")
+  var input12 = document.getElementById("12amInput")
+  input12.value = input12Text
+  var input13Text = localStorage.getItem("13amInput")
+  var input13 = document.getElementById("13amInput")
+  input13.value = input13Text
+  var input14Text = localStorage.getItem("14amInput")
+  var input14 = document.getElementById("14amInput")
+  input14.value = input14Text
+  var input15Text = localStorage.getItem("15amInput")
+  var input15 = document.getElementById("15amInput")
+  input15.value = input15Text
+  var input16Text = localStorage.getItem("16amInput")
+  var input16 = document.getElementById("16amInput")
+  input16.value = input16Text
+  var input17Text = localStorage.getItem("17amInput")
+  var input17 = document.getElementById("17amInput")
+  input17.value = input17Text 
 
 })
