@@ -18,6 +18,9 @@ Type hours tasks can be added by user input
 
 Dates displayed on the field will automatically updated according to current moment
 
+![GitHub Logo](/asset/wd.gif)
+Format: ![Alt Text](working application)
+
 
 ## Contrubutor
 Chris Kim
