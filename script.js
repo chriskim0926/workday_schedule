@@ -34,4 +34,143 @@ $(document).ready(function () {
       }
     
       getDateContext()
+
+//Variables for the color change for each row
+var dateObj = new Date ();
+var currentTime = dateObj.getHours();
+var hourPast = hourPast < currentTime;
+var hourNow = currentTime;
+var hourFuture = hourFuture < currentTime;
+console.log(hourNow)
+console.log(currentTime)
+var rows9 = document.getElementById("9row");
+var rowIdString9 = rows9.id
+var rowValue9 = parseInt(rowIdString9);
+console.log(rowValue9)
+var rows10 = document.getElementById("10row");
+var rowIdString10 = rows10.id
+var rowValue10 = parseInt(rowIdString10);
+console.log(rowValue10)
+var rows11 = document.getElementById("11row");
+var rowIdString11 = rows11.id
+var rowValue11 = parseInt(rowIdString11);
+console.log(rowValue11)
+var rows12 = document.getElementById("12row");
+var rowIdString12 = rows12.id
+var rowValue12 = parseInt(rowIdString12);
+console.log(rowValue12)
+var rows13 = document.getElementById("13row");
+var rowIdString13 = rows13.id
+var rowValue13 = parseInt(rowIdString13);
+console.log(rowValue13)
+var rows14 = document.getElementById("14row");
+var rowIdString14 = rows14.id
+var rowValue14 = parseInt(rowIdString14);
+console.log(rowValue14)
+var rows15 = document.getElementById("15row");
+var rowIdString15 = rows15.id
+var rowValue15 = parseInt(rowIdString15);
+console.log(rowValue15)
+var rows16 = document.getElementById("16row");
+var rowIdString16 = rows16.id
+var rowValue16 = parseInt(rowIdString16);
+console.log(rowValue16)
+var rows17 = document.getElementById("17row");
+var rowIdString17 = rows17.id
+var rowValue17 = parseInt(rowIdString17);
+console.log(rowValue17)
+
+
+// Conditional Statement to change color accourding to current hours compare to schedule hours
+
+if(currentTime == rowValue9){
+    $("#9amInput").attr("style", "background-color: red")
+  
+}else if(currentTime > rowValue9){
+    $("#9amInput").attr("style", "background-color: grey")
+
+}else if(currentTime < rowValue9){
+    $("#9amInput").attr("style", "background-color: lightgreen")
+}
+
+if(currentTime == rowValue10){
+    $("#10amInput").attr("style", "background-color: red")
+    
+}else if(currentTime > rowValue10){
+    $("#10amInput").attr("style", "background-color: grey")
+  
+}else if(currentTime < rowValue10){
+    $("#10amInput").attr("style", "background-color: lightgreen")
+}
+
+if(currentTime == rowValue11){
+    $("#11amInput").attr("style", "background-color: red")
+   
+}else if(currentTime > rowValue11){
+    $("#11amInput").attr("style", "background-color: grey")
+
+}else if(currentTime < rowValue11){
+    $("#11amInput").attr("style", "background-color: lightgreen")
+}
+
+if(currentTime == rowValue12){
+    $("#12amInput").attr("style", "background-color: red")
+   
+}else if(currentTime > rowValue12){
+    $("#12amInput").attr("style", "background-color: grey")
+  
+}else if(currentTime < rowValue12){
+    $("#12amInput").attr("style", "background-color: lightgreen")
+}
+
+if(currentTime == rowValue13){
+    $("#13amInput").attr("style", "background-color: red")
+
+}else if(currentTime > rowValue13){
+    $("#13amInput").attr("style", "background-color: grey")
+   
+}else if(currentTime < rowValue13){
+    $("#13amInput").attr("style", "background-color: lightgreen")
+}
+
+if(currentTime == rowValue14){
+    $("#14amInput").attr("style", "background-color: red")
+   
+}else if(currentTime > rowValue14){
+    $("#14amInput").attr("style", "background-color: grey")
+    
+}else if(currentTime < rowValue14){
+    $("#14amInput").attr("style", "background-color: lightgreen")
+}
+
+if(currentTime == rowValue15){
+    $("#15amInput").attr("style", "background-color: red")
+ 
+}else if(currentTime > rowValue15){
+    $("#15amInput").attr("style", "background-color: grey")
+   
+}else if(currentTime < rowValue15){
+    $("#15amInput").attr("style", "background-color: lightgreen")
+}
+
+if(currentTime == rowValue16){
+    $("#16amInput").attr("style", "background-color: red")
+  
+}else if(currentTime > rowValue16){
+    $("#16amInput").attr("style", "background-color: grey")
+  
+}else if(currentTime < rowValue16){
+    $("#16amInput").attr("style", "background-color: lightgreen")
+}
+
+if(currentTime == rowValue17){
+    $("#17amInput").attr("style", "background-color: red")
+    
+}else if(currentTime > rowValue17){
+    $("#17amInput").attr("style", "background-color: grey")
+
+}else if(currentTime < rowValue17){
+    $("#17amInput").attr("style", "background-color: lightgreen")
+}
+
 })
