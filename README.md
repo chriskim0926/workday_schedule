@@ -21,7 +21,7 @@ Dates displayed on the field will automatically updated according to current mom
 ![](asset/wd.gif)
 
 ## Contrubutor
-Chris Kim
+Chris Kim, 
 Trilogy Education Services, a 2U, Inc. brand.
 
 ## Licensing
