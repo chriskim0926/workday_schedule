@@ -173,4 +173,34 @@ if(currentTime == rowValue17){
     $("#17amInput").attr("style", "background-color: lightgreen")
 }
 
+//Button to disable or enable Text input Field
+
+var input9 = document.getElementById("9amInput")
+var input10 = document.getElementById("10amInput") 
+var input11 = document.getElementById("11amInput") 
+var input12 = document.getElementById("12amInput") 
+var input13 = document.getElementById("13amInput") 
+var input14 = document.getElementById("14amInput") 
+var input15 = document.getElementById("15amInput") 
+var input16 = document.getElementById("16amInput") 
+var input17 = document.getElementById("17amInput") 
+var button9 = $('#9amInput');
+var button10 = $('#10amInput');
+var button11 = $('#11amInput');
+var button12 = $('#12amInput');
+var button13 = $('#13amInput');
+var button14 = $('#14amInput');
+var button15 = $('#15amInput');
+var button16 = $('#16amInput');
+var button17 = $('#17amInput');
+
+// click function 
+$('#9amButton').click(function() {
+    if ($(button9).attr('disabled')) $(button9).removeAttr('disabled');
+    else $(button9).attr('disabled', 'disabled');
+    var input9 = document.getElementById("9amInput") 
+    localStorage.setItem("9amInput",input9.value)
+    console.log(input9.value)
+});
+
 })
