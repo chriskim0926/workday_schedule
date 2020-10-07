@@ -35,7 +35,9 @@ $(document).ready(function () {
     
       getDateContext()
 
-//Variables for the color change for each row
+
+
+      //Variables for the color change for each row
 var dateObj = new Date ();
 var currentTime = dateObj.getHours();
 var hourPast = hourPast < currentTime;
