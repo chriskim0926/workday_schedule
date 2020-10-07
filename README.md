@@ -18,10 +18,10 @@ Type hours tasks can be added by user input
 
 Dates displayed on the field will automatically updated according to current moment
 
-
+![](asset/wd.gif)
 
 ## Contrubutor
-Chris Kim
+Chris Kim, 
 Trilogy Education Services, a 2U, Inc. brand.
 
 ## Licensing
