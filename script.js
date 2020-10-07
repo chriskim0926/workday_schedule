@@ -193,6 +193,7 @@ var button14 = $('#14amInput');
 var button15 = $('#15amInput');
 var button16 = $('#16amInput');
 var button17 = $('#17amInput');
+var locked9 = $('#unlocked9');
 
 // click function 
 $('#9amButton').click(function() {
@@ -288,4 +289,10 @@ $('#17amButton').click(function() {
   var input17 = document.getElementById("17amInput")
   input17.value = input17Text 
 
+
+
+  
 })
+
+
+
