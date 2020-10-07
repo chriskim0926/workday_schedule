@@ -34,6 +34,7 @@ $(document).ready(function () {
       }
     
       getDateContext()
+      console.log("text")
 
 
 
